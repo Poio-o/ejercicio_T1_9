@@ -1,11 +1,4 @@
 public class App {
-    public static final String RESET = "\033[0m"; // Text Reset
-    public static final String GRIS_TEXTO = "\u001B[38;5;245m"; // Text Reset
-    public static final String ROJO_TEXTO = "\u001B[38;5;124m"; // Text Reset
-    public static final String MARRON_TEXTO = "\u001B[38;5;94m"; // Text Reset
-    public static final String NEGRO_TEXTO = "\u001B[30m"; // Text Reset
-    public static final String AZUL_FONDO = "\u001B[48;5;69m"; // Text Reset
-
     public static void main(String[] args) throws Exception {
         System.out.printf("%27s%n", "█");
         System.out.printf("%5s%14s%n", "APRENDE JAVA", "█");
